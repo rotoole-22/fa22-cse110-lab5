@@ -3,7 +3,7 @@
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-  // TODO
+  // DONE
   const selectedHorn = document.getElementById('horn-select');
   const selectedVolume = document.getElementById('volume');
   const selectedAudio = document.querySelector('.hidden');
@@ -38,6 +38,5 @@ function init() {
     if(selectedHorn.value == 'party-horn') {
       confetti.addConfetti();
     }
-    //volume
   });
 }
